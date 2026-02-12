@@ -37,24 +37,28 @@ This project integrates two independent AI pipelines into a single healthcare sy
 
 
 
+```text
 AI_HEALTHCARE_DIAGNOSIS/
 │
 ├── backend/
-│ ├── main.py # FastAPI backend
-│ ├── requirements.txt # Backend dependencies
-│ └── init.py
+│   ├── main.py
+│   ├── requirements.txt
+│   └── __init__.py
 │
 ├── frontend/
-│ └── app.py # Streamlit frontend UI
+│   └── app.py
 │
 ├── ml_models/
-│ ├── image_model.py # CNN inference logic
-│ ├── symptom_model.py # ML inference logic
-│ ├── train_image_model.py # Image model training
-│ ├── train_symptom_model.py # Symptom model training
-│ └── init.py
+│   ├── image_model.py
+│   ├── symptom_model.py
+│   ├── train_image_model.py
+│   ├── train_symptom_model.py
+│   └── __init__.py
 │
 └── README.md
+```
+
+
 
 
 
