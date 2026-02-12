@@ -159,9 +159,4 @@ chest pain pressure shortness of breath
 
 ⚠️ This system is **not a medical device** and should not be used for real-world clinical diagnosis.
 
-```
 
----
-
-
-```
