@@ -41,7 +41,7 @@ The project consists of two independent AI modules:
 ## 📂 Project Structure
 
 ```
-
+---
 AI HEALTHCARE DIAGNOSIS/
 │
 ├── backend/
@@ -60,7 +60,7 @@ AI HEALTHCARE DIAGNOSIS/
 │   └── **init**.py
 │
 └── README.md
-
+---
 ````
 
 ---
