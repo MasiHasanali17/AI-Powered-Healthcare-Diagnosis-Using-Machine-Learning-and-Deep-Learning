@@ -57,3 +57,111 @@ AI_HEALTHCARE_DIAGNOSIS/
 └── README.md
 
 
+
+---
+
+## 🚀 How to Run the Project
+
+### 1️⃣ Install Dependencies
+
+Open terminal inside the **backend** folder:
+
+```bash
+pip install -r requirements.txt
+````
+
+---
+
+### 2️⃣ Train Machine Learning Models
+
+Navigate to the **ml_models** folder:
+
+```bash
+python train_symptom_model.py
+```
+
+(Optional – only if chest X-ray dataset is available)
+
+```bash
+python train_image_model.py
+```
+
+---
+
+### 3️⃣ Start Backend Server (FastAPI)
+
+From the **backend** folder:
+
+```bash
+python -m uvicorn main:app --reload
+```
+
+Backend URL:
+
+```
+http://127.0.0.1:8000
+```
+
+---
+
+### 4️⃣ Start Frontend Application (Streamlit)
+
+From the **frontend** folder:
+
+```bash
+streamlit run app.py
+```
+
+Frontend URL:
+
+```
+http://localhost:8501
+```
+
+---
+
+## 🧪 Sample Inputs
+
+### 📝 Symptom Prediction (ML)
+
+```
+fever cough cold sniffles
+high fever body ache chills
+frequent urination thirst fatigue
+chest pain pressure shortness of breath
+```
+
+### 🖼️ Medical Image Diagnosis (DL)
+
+* Upload **PA-view chest X-ray images**
+* Black, blank, or unrelated images are automatically rejected
+
+---
+
+## ⚠️ Important Notes
+
+* This project is intended for **academic and research purposes**
+* Prediction accuracy depends on training data size
+* Confidence-based rejection ensures **safe AI behavior**
+
+---
+
+## 🎓 Academic Value
+
+* Demonstrates real **ML + DL integration**
+* Uses industry-standard architectures
+* Follows reproducible AI practices
+* Suitable for **Final Year / Mega Project**
+
+---
+
+## 📄 Disclaimer
+
+⚠️ This system is **not a medical device** and should not be used for real-world clinical diagnosis.
+
+```
+
+---
+
+
+```
